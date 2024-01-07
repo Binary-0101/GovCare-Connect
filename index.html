@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landio - Landing page</title>
+  
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+        <img src="images/logoTN.svg" alt="Landio logo" class="logo">
+
+      <button class="menu-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#Home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#Raise an Issue" class="navbar-link">Raise an Issue</a>
+          </li>
+
+          <li>
+            <a href="About" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#FAQ" class="navbar-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#Contact Us" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <div class="header-actions">
+          <a href="#" class="header-action-link">Log in</a>
+
+          <a href="#" class="header-action-link">Register</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <section class="hero" id="hero">
+        <div class="container">
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">GovCare Connect</h1>
+
+            <p class="hero-text">
+               Your Voice, Your Concerns, Our Commitment. Navigating Together for a Better Tomorrow.
+            </p>
+
+            <p class="form-text">
+                Bridging Citizens and Government. Your Concerns, Our Action, One Connection.
+            </p>
+
+          </div>
+
+          <form action="" class="contact-form">
+            <div class="wrapper-flex">
+
+              <div class="input-wrapper">
+                <label for="name">Name*</label>
+
+                <input type="text" name="name" id="name" required placeholder="Enter Your Name" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="emai">Email*</label>
+
+                <input type="text" name="email" id="email" required placeholder="Enter Your Email"
+                  class="input-field">
+              </div>
+
+            </div>
+
+            <label for="message">Message</label>
+
+            <textarea name="message" id="message" required placeholder="Type Your Message"
+              class="input-field"></textarea>
+
+            <button type="submit" class="btn btn-primary">
+              <span>Send Message</span>
+
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - ABOUT
+      -->
+
+      <section class="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <div class="about-icon">
+              <ion-icon name="cube"></ion-icon>
+            </div>
+
+            <h2 class="h2 about-title">How this work</h2>
+
+            <p class="about-text">
+              Share your issues effortlessly through our user-friendly platfrom. Select 
+              the revelant government department to ensure your concern reaches the right ears.
+              Your message is sent directly to the concerned officials, fostering transparency and efficiency.
+            </p>
+
+            <button class="btn btn-outline">Learn More</button>
+
+          </div>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="thumbs-up"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Easy To Use</h3>
+
+                <p class="card-text">
+                  Experience the simplicity of GovCare Connect in just a few easy steps. Share your concerns effortlessly, navigate our user-friendly platform with ease, and stay informed about your submissions. With GovCare Connect, civic engagement has never been simpler 
+                  empowering you to connect with the government hassle-free
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Securing Your Voice</h3>
+
+                <p class="card-text">
+                   Our platform employs state-of-the-art encryption and security measures to ensure that your concerns are handled with the utmost privacy. 
+                   You can trust GovCare Connect to safeguard your messages as we bridge the gap between citizens and government, fostering open communication with the 
+                   assurance of data protection at every step.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="contact" id="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Contact Us</h2>
+
+          <p class="section-text">
+            Get in Touch: Reach out to GovCare Connect. Your feedback, questions, and suggestions matter. 
+            We're here to assist you on your journey towards positive change.
+          </p>
+
+          <div class="contact-wrapper">
+
+           
+
+            <ul class="contact-list">
+
+              <li>
+                <a href="mailto:TN@site.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>: TN@site.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="globe-outline"></ion-icon>
+
+                  <span>: www.website.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+0011234567890" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  <span>: 9952858048 </span>
+                </a>
+              </li>
+
+              <li>
+                <div class="contact-link">
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <span>: 9:00 AM - 6:00 PM</span>
+                </div>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="location-outline"></ion-icon>
+
+                  <address>: Coimbatore,Tamil Nadu</address>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">ABOUT US</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Tamil Nadu  Government</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Schemes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Welfare</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">Public</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Public Needs</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Features</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">SUPPORT</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Customer Service</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Terms and Conditions</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+   </div>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
